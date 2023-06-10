@@ -1,9 +1,13 @@
 import cx_Freeze
 
-executables = [cx_Freeze.Executable("weather_display.py")]
+executables = [cx_Freeze.Executable("main.py", icon="icon.ico")]
 
 cx_Freeze.setup(
     name="Weather App",
-    options={"build_exe": {"packages":["tkinter","requests"],"include_files":["icon.ico"]}},
+    options={
+        "build_exe": {
+            "packages":["tkinter","requests"],
+        }
+    },
     executables = executables
-    )
+)
