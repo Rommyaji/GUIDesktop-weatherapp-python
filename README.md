@@ -6,6 +6,8 @@ Weather app using api from openweathermap that built in GUI desktop app. CSV fil
 # Library 
 * Tkinter : https://docs.python.org/3/library/tk.html
 * cx_freeze : https://cx-freeze.readthedocs.io/en/stable/
+* datetime : https://docs.python.org/3/library/datetime.html
+* os.path : https://docs.python.org/3/library/os.path.html
 
 
 # Usage
